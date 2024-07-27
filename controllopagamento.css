@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+
+.clearfix:before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    width: 800px;
+    margin: 0 auto;
+    /* border: red 1px solid; */
+}
+
+h3{
+    text-align: left;
+}
+
+p{
+    text-align: left;
+    line-height: 20px;
+}
+
+p a{
+    color: black;
+}
+
+#card{
+    border: rgb(217, 216, 216) 1px solid;
+    height: 200px;
+    margin-top: 30px;
+}
+
+#card p{
+    margin: 20px;
+}
+
+#num{
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+    border: rgb(217, 216, 216) 1px solid;
+    float: left;
+}
+
+#num:hover{
+    border: black 1px solid;
+}
+
+#mm{
+    width: 27%;
+    padding: 10px;
+    border-radius: 5px;
+    border: rgb(217, 216, 216) 1px solid;
+    float: left;
+    margin-right: 5px;
+}
+
+#cvv{
+    width: 27%;
+    padding: 10px;
+    border-radius: 5px;
+    border: rgb(217, 216, 216) 1px solid;
+    float: right;
+    margin-right: 15px;
+
+}
+
+#mm:hover{
+    border: black 1px solid;
+}
+
+#cvv:hover{
+    border: black 1px solid;
+}
+
+#num:focus{
+    border: black 1px solid;
+    outline: none;
+}
+
+#mm:focus{
+    border: black 1px solid;
+    outline: none;
+}
+
+#cvv:focus{
+    border: black 1px solid;
+    outline: none;
+}
+
+#pcvv{
+    text-align: right;
+    margin-right: 15px;
+    height: 150px;
+    
+    
+    
+}
+
+#pcvv p{
+    color: black;
+    text-align: right;
+    margin-top: 100px;
+}
+
+.input-error {
+    
+    outline: none;
+    border: 2px solid red;
+  }
+
+.input-error::placeholder {
+    color: red;
+  } 
+
+
+#form .warn{
+    border: solid 1px #c40000;
+    background-color: #ffe9e9;
+}
+
+.popup{
+    width: 400px;
+    background-color: rgb(228, 184, 184);
+    border-radius: 6px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    visibility: hidden;
+    height: 160px;
+    text-align: center;
+}
+
+.popup p{
+    text-align: center;
+}
+
+.poppedup{
+    visibility:visible ;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1) ;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+button{
+    
+    width: 130px;
+    border-radius: 20px;
+    border: rgb(228, 228, 228) solid;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(228, 228, 228);
+}
+  
+
+
+
+
+
+

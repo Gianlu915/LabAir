@@ -1,0 +1,380 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: red 1px solid; */
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#boxSx{
+    width: 60%;
+    float: left;
+}
+
+#boxDx{
+    width: 40%;
+    float: right;
+    /* border: black 1px solid; */
+    overflow: auto;
+}
+
+
+#ship,#loc{
+    border: gray 1px solid;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#ship{
+    width: 47%;
+    float: left;
+    overflow: auto;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#ship:hover{
+    border: black 1px solid;
+}
+
+#loc{
+    width: 47%;
+    float: right;
+    margin-right: 30px;
+    overflow: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#loc:hover{
+    border: black 1px solid;;
+}
+
+#ship img,#loc img{
+    width: 10%;
+}
+
+#shipping{
+    /* border: red 1px solid; */
+    width: 20%;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 10px;
+}
+
+
+#shipping h4{
+    margin: 0 auto;
+}
+
+#shipping img{
+    width: 15%;
+    margin-left: 30px;
+    float: left;
+    text-align: center;
+    margin-top: 19px;
+}
+
+#collect{
+    /* border: red 1px solid; */
+    width: 20%;
+    margin: 0 auto;
+    overflow: auto;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#collect h4{
+   margin: 0 auto;
+}
+
+#collect img{
+    width: 8%;
+    margin-left: 55px;
+    float: left;
+    text-align: center;
+    margin-top: 24px;
+}
+
+
+
+
+#name:hover{
+ border: black 1px solid;
+}
+
+#name:focus{
+    border: black 1px solid;
+    outline: none;
+   }
+
+#surname:hover{
+    border: black 1px solid;
+    outline: none;
+}
+
+#surname:focus{
+    border: black 1px solid;
+    outline: none;
+}
+
+#address:hover{
+    border: black 1px solid;
+    outline: none;
+}
+
+#address:focus{
+    border: black 1px solid;
+    outline: none;
+}
+
+#Postcode:hover{
+    border: black 1px solid;
+    outline: none;
+}
+
+#Postcode:focus{
+    border: black 1px solid;
+    outline: none;
+}
+
+#city:hover{
+    border: black 1px solid;
+    outline: none;
+}
+
+#city:focus{
+    border: black 1px solid;
+    outline: none;
+}
+
+#country:focus{
+    border: black 1px solid;
+    outline: none;
+}
+
+#email:hover{
+    border: black 1px solid;
+    outline: none;
+}
+
+#email:focus{
+    border: black 1px solid;
+    outline: none;
+}
+
+#phone:hover{
+    border: black 1px solid;
+    outline: none;
+}
+
+#phone:focus{
+    border: rgb(0, 0, 0) 1px solid;
+    outline: none;
+}
+
+
+#pagamento{
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+form{
+    /* width: 60%; */
+    /* border: green 2px solid; */
+    overflow: auto;
+}
+
+form #name,#surname{
+    width: 45%;
+    border: solid rgb(168, 168, 168) 1px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0;
+}
+
+#surname{
+    width: 44%;
+}
+
+form #address{
+    width: 93%;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    border: solid rgb(168, 168, 168) 1px;
+}
+
+#Postcode,#city,#country{
+    width: 30%;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    border: solid rgb(168, 168, 168) 1px;
+}
+
+#country{
+    width: 29%;
+}
+
+#email,#phone{
+    width: 45%;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    border: solid rgb(168, 168, 168) 1px;
+}
+
+#button{
+    width: 20%;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    border: solid rgb(168, 168, 168) 1px;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+hr{
+ margin-right: 28px;
+ margin-top: 20px;
+}
+
+.pag{
+    color: rgb(86, 86, 86);
+    
+}
+
+#order{
+    float: left;
+    /* border: blue 1px solid;; */
+    width: 50%;
+}
+
+#modify{
+    width: 50%;
+    float: right;
+    /* border: red 1px solid; */
+    text-align: right;
+}
+
+#modify a{
+    color: black;
+}
+
+#sub{
+    /* border: black solid 1px; */
+    width: 50%;
+   float: left;
+}
+
+.price{
+    width: 50%;
+    /* border:  yellow solid 1px; */
+    float: right;
+    text-align: right;
+}
+
+#del{
+    float: left;
+    width: 50%;
+    margin-top: 5px;
+}
+
+#free{
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-top: 5px;
+}
+
+#total{
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-top: 5px;
+     /* border: red solid 1px; */
+    margin-bottom: 30px;
+}
+
+#x{
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-bottom: 30px;
+    margin-top: 5px;
+     /* border: red solid 1px; */
+
+}
+
+hr{
+    width: 100%;
+}
+
+#first{
+    width: 30%;
+    /* border: red solid 1px; */
+    float: left;
+}
+
+#first img{
+    width: 100%;
+}
+
+.desc{
+    /* border: green solid 1px; */
+    width: 65%;
+    float: right;
+    margin-left: 10px;
+}
+
+.desc p{
+    line-height: 20px;
+    margin: 0;
+}
+
+#box1{
+    width: 100%;
+    /* border: black solid 1px; */
+    overflow: auto;
+}
+
+#box2{
+    width: 100%;
+    /* border: black solid 1px; */
+    overflow: auto;
+}
+
+
+.input-error::placeholder {
+    color: red;
+  } 
+
+
+#form .warn{
+    border: solid 1px #c40000;
+    background-color: #ffe9e9;
+}
+
+
+
+
+
+
+
+
+
+

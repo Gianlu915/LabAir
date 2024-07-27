@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="controllopagamento.css">
+    <script src="validation.js" defer></script>
+</head>
+<body>
+   
+    <div id="box">
+
+        <h3>Payment</h3>
+
+        <p>billing country/region <br> Italy <a href="">Modify</a></p>
+
+       <input type="checkbox" id="gift">
+       <label for="gift">Do you have a gift card or voucher?</label>
+
+
+       <p>Select method of payment</p>
+       
+       <input type="radio" name="box" id="credit" required>
+       <label for="credit">Credit Card</label>
+        <br>
+
+       <input type="radio" name="box" id="Paypal" required>
+       <label for="Paypal">PayPal</label> <br>
+
+       <input type="radio" name="box" id="Gpay" required>
+       <label for="Gpay">Gpay</label>
+
+       <div id="card" class="clearfix">
+            
+            <p>Add Card</p>
+
+            <form class="clearfix" id="form" action="
+            ">
+
+            
+            
+            <input type="text" placeholder="Card Number" id="num">
+            
+
+            
+            <input type="text" placeholder="MM/AA" id="mm">
+            
+
+            <input type="text" placeholder="Cvv" id="cvv">
+            
+            
+            
+            <div id="pcvv">
+        
+           <p><a href="">Where is my Cvv</a></p>
+            </div>
+
+
+            <button type="submit" id="pay">Pay</button>
+
+
+            </form>
+            
+            
+       </div>
+
+       
+
+       
+        
+    </div>
+
+    <div class="popup">
+        <h2>Thank You!</h2>
+        <p>Your Details has been Succesfully Submitted.</p>
+    </div>
+
+</body>
+</html>
