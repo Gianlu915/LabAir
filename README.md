@@ -9,7 +9,6 @@ A simple webpage created using HTML, CSS, and JavaScript. This project represent
 
 ## Features
 - Basic webpage layout
-- Responsive design
 - Interactive elements
 
 ## Note
